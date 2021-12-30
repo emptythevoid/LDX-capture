@@ -17,8 +17,7 @@ The scripts make use of figlet, lolcat, a spinner script, and a draw script to m
 This repo does not include any methods to process the resulting log - it's only for capturing it.
 
 Requirements:
-lolcat
-figlet
+lolcat, figlet
 
 To use:
 Place all bash scripts in the same directory.  Connect the serial cable to the printer port on the LDX.  Then:
