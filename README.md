@@ -1,5 +1,8 @@
 # LDX-capture
-Bash scripts that allow capturing printer output from an LXD cholesterol machine.
+Bash scripts that allow capturing printer output from an LXD cholesterol machine (Abbot, Cholestech).
+
+This was tested with an Abbot Cholestech machine, but may work with others.
+https://www.globalpointofcare.abbott/en/product-details/cholestech-ldx-system.html
 
 LDX cholesterol machines output to an optionally attached printer.  If this data needs to be captured to be used by a computer, this can be done simply by collecting the data by serial. The scripts assume you're using a serial-to-USB cable, but this can be altered.
 
