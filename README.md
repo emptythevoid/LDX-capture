@@ -6,7 +6,7 @@ https://www.globalpointofcare.abbott/en/product-details/cholestech-ldx-system.ht
 
 LDX cholesterol machines output to an optionally attached printer.  If this data needs to be captured to be used by a computer, this can be done simply by collecting the data by serial. The scripts assume you're using a serial-to-USB cable, but this can be altered.
 
-I have written a simple command-line interface for this process.  This is intended to be used when you a.) need to collect a lot of samples fast, and b.) when you indent to put this information in a csv or process it later.
+I have written a simple command-line interface for this process.  This is intended to be used when you a.) need to collect a lot of samples fast, and b.) when you intend to put this information in a csv or process it later.
 
 There are two primary components.  A listener and the interface.  start-v2.sh is the interface.  It will initialize a log file and allows the operator to manually enter in a patient's name, which is then written to the log.  (This is so that when the log file is processed, you can tell which patient the results belong to.)  
 
